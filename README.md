@@ -1,12 +1,12 @@
-# Your Passion Project Guide
+# What is Math Machine?
 
-Welcome to your Passion Project! In this project, you'll combine the power of Google's Teachable Machine with web design to create an interactive application that recognizes images based on your custom-trained model. This is your chance to explore something you're passionate about while learning about AI and web development!
+Interactive webpage powered with Google's Teachable Machine to recognize math images based on a custom-trained model.
 
 ## Getting Started
 
-Press the `Start!` button in the Preview panel to see your model in action! The model included in the template has been trained to recognize mugs, pens, and glasses. Note: It may take a few seconds to load. Press the refresh button in the Preview panel to close the camera.
+Press the `Upload!` button in the Preview panel to see the model in action! As of now, the model included in the template has been trained to recognize mugs, pens, and glasses. Note: It may take a few seconds to load. Press the refresh button in the Preview panel to close the camera.
 
-## Passion Project Checklist
+## Checklist
 
 - [ ] Fork the Passion Project template
 - [ ] Decide on your Passion Project idea
@@ -17,7 +17,7 @@ Press the `Start!` button in the Preview panel to see your model in action! The 
 - [ ] Complete the Project Showcase Prep
 - [ ] Showcase your project
 
-## Project Showcase Prep
+## Project Showcase
 
 1. **Why did you choose this project topic?**
     - Write your answer here.
