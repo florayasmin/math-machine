@@ -40,6 +40,7 @@ a {
   padding: 5px 0;
   margin: 50px 0 10px 0;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease forwards;
 }
 
 /* Side-by-side layout for the "about" section */
@@ -111,11 +112,14 @@ button {
   height: 50px;
   margin: 20px auto;
   display: block;
+
+  transition: all 0.3s ease;
 }
 
 button:hover {
   background-color: #ffeccc;
   cursor: pointer;
+  transform: scale(1.05); /* makes the button slightly bigger */
 }
 
 /* The camera */
@@ -133,4 +137,15 @@ button:hover {
   font-size: 12pt;
 
   margin: 25px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
