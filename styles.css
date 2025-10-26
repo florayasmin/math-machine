@@ -1,13 +1,12 @@
 html {
   height: 100%;
   width: 100%;
-  font-family: sans-serif;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 /* TODO: Edit the properties below to customize your website! */
 body {
-  background-color: #c8d6af;
-
+  background: linear-gradient(135deg, #d4e2c4, #f2d0a4);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -40,6 +39,63 @@ a {
   width: 80%;
   padding: 5px 0;
   margin: 50px 0 10px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Side-by-side layout for the "about" section */
+.bubble.about {
+  display: flex;
+  align-items: center; /* vertically center text and image */
+  gap: 5px; /* space between image and text */
+  justify-content: flex-start;
+}
+
+/* Image styling */
+.bubble.about img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 50px;
+}
+
+/* Text styling */
+.bubble.about .text {
+  flex: 1;
+  text-align: left;
+}
+
+.bubble.about h1 {
+  font-size: 28px;
+  margin: 50px 50px 30px 50px;
+}
+
+.bubble.about p {
+  margin: 10px 50px 30px;
+  line-height: 1.5;
+}
+
+/* Keep link styling consistent */
+.bubble.about a {
+  color: #6a1b9a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.bubble.about a:hover {
+  color: #9c27b0;
+  text-decoration: underline;
+}
+
+/* Responsive tweak for small screens */
+@media (max-width: 600px) {
+  .bubble.about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bubble.about img {
+    margin-bottom: 20px;
+  }
 }
 
 /* Edit me to change the appearance of the button! */
